@@ -1,0 +1,165 @@
+@charset "UTF-8";
+
+header {
+    background-color: rgb(189, 183, 183);
+    padding: 20px 0;
+    
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: -40px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: rgba(194, 148, 31, 0.705);
+    text-decoration: underline;
+}
+
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 8px 0 10px 0;
+}
+
+.enviar {
+    margin: 0 0 10px 0;
+    padding: 6px;
+    background-color: cornflowerblue;
+    width: 40%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: cornsilk;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    transition: 1seg all;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background-color: rgba(0, 0, 0, 0.76);
+    transform: scale(1.1);
+}
+
+.input-padrao {
+    display: block;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    padding: 10px 25px;
+    width: 50%;
+
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    border: 3px black solid;
+    margin: 0 1.5%;
+    padding: 25px 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.produtos li:hover {
+    color: rgba(194, 148, 31, 0.705);
+    font-size: 50px;
+}
+
+.produtos li:hover h2 {
+    font-size: 34px;
+}
+
+.produtos li:active {
+    border-color: green;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-descricao {
+    font-size: 18px;
+}
+
+.produto-preco {
+    font-size:22px;
+    font-weight: bold;
+    margin: 10px 0 0 0;
+}
+
+footer {
+    background-image: url(imagens/bg.jpg);
+    text-align: center;
+    padding: 40px 0;
+}
+
+footer p {
+    color: white;
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+main table {
+    margin: 20px 0 40px 0;
+}
+
+thead {
+    background-color: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+main td {
+    border: 1px solid black;
+    padding: 15px 8px;
+}
+
+main th {
+    border: 1px solid black;
+    padding: 15px 8px;
+}
