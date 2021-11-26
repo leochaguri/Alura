@@ -163,3 +163,17 @@ main th {
     border: 1px solid black;
     padding: 15px 8px;
 }
+
+@media screen and (max-width: 480px) {
+    .caixa, header, main, form, footer {
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+}

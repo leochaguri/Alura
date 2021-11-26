@@ -107,10 +107,12 @@ footer p {
     font-size: 2em;
     margin: 0 0 1em 0;
     clear: left;
+    opacity: 0.7;
+    font-weight: bold;
 }
 
 .titulo-principal::first-letter {
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 
@@ -160,6 +162,7 @@ footer p {
 
 .imagem-beneficios {
     width: 60%;
+    box-shadow: 8px 8px 6px 1.5px;
 }
 
 .conteudo-beneficios {
@@ -189,6 +192,13 @@ footer p {
 
 .imagem-beneficios {
     width: 50%;
+    transition: 400ms;
+    opacity: 1;
+}
+
+.imagem-beneficios:hover {
+    width: 50%;
+    opacity: 0.3;
 }
 
 
@@ -201,3 +211,114 @@ footer p {
     width: 560px;
     margin: 2em auto;
 }
+
+@media screen and (max-width: 480px) {
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video { 
+        width: auto; 
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static; 
+        text-align: center;
+    }
+
+    .utensilios {
+        width: 6em;
+        display: block;
+        margin: 1em;
+    }
+
+    .lista-beneficios, .imagem-beneficios {
+        width: 100%; 
+    }
+
+    .principal, .paragrafos {
+        text-align: justify;
+    }
+
+    .paragrafos {
+        text-indent: 2em;
+    }
+
+    .paragrafo-mapa {
+        padding: 0.5em 2em;
+    }
+
+    .principal, .mapa, .beneficios {
+        padding: 1em 0;
+    }           
+
+    .lista-beneficios {
+        text-align: center;
+        margin: 0 0 2em;
+    }
+
+    .titulo-principal, .principal, .mapa-conteudo, .conteudo-beneficios {
+        margin: 0.5em 2em;
+    }
+
+
+    .titulo-principal {
+        font-size: 1.5em;
+    }
+
+    .video {
+        margin: 0.5em 2em 4em;
+    }
+
+    .imagem-beneficios  {
+        margin: 0 0 2em;
+
+}
+
+    .produtos {
+        width: auto;
+        margin: 1em;
+        padding: 2em 2em;
+    }    
+
+
+    .produtos li {
+        display: block;
+        text-align: center;
+        width: auto;
+        margin: 1.5em 0;
+    }
+
+    .produtos li:hover {
+        border-color: #C78C19;
+    }
+
+    .produtos li:active {
+        border-color: #088c19;
+    }
+
+    .produtos li:hover h2 {
+        font-size: 3em;
+    }
+
+    form {
+        margin: 3em 2em;
+    }
+
+    .input-padrao {  
+        width: 80%;
+    }
+
+    .enviar {
+        font-size: 1em;
+        width: 100%;
+        padding: 1em;
+    }
+
+    table {
+        margin: 0 auto 4em;
+}
+
+}
+
+
